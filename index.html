@@ -1,72 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="/img/db502bf8499561baa629df6e7c704561.png">
-
-  <title>Pescadería María Jesus</title>
-</head>
-<body>
-  <div id="wrapper">
-    <header class="hero">
-      <h1 class="main-title">Pescadería María Jesus</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-        magnam repellendus culpa iusto aliquid asperiores officiis, similique,
-        quasi labore veniam quae magni, dicta rem placeat harum quas qui autem
-        tempore.
-      </p>
-      <div class="cta-buttons">
-        <a href="#" class="cta-btn">Saber más</a>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./img/db502bf8499561baa629df6e7c704561.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://kit.fontawesome.com/37490f6eb4.js" crossorigin="anonymous"></script>
+    <title>Pescadería María Jesus</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="topnav" id="myTopnav">
+          <a href="#" class="active">Home</a>
+          <a href="#productos">Productos</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#contactos">Contactos</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      <header class="hero"> 
+        <div class="container">
+        
       </div>
-    </header>
-    
+      </header>
+      <section id="intro">
+        <h1>Sitio Web de Pescaderia María Jesus</h2>
+        <p>
+          Nuestro sitio web le permite ojear de una forma cómoda y sencilla
+          Pescado, Mariscos y otros productos Envasados<br> como conservas y
+          congelados.
+          Comprar los mejores productos del mar ahora está al alcance de todos.
+        </p>
+      </section>
+      <section id="productos">
+        <div class="grid-3">
+          <div class="col-3">
+            <img src="./img/pescado.Unspash.jpg" />
+            <h3>Pescados</h3>
+            <button class="btn">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+          <div class="col-3">
+            <img src="./img/mariscosV2.jpg" />
+            <h3>Mariscos</h3>
+            <button class="btn">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+          <div class="col-3">
+            <img src="./img/sushi.jpg" />
+            <h3>Envasados</h3>
+            <button class="btn">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </section>
 
-    <nav class="navbar">
-      <a href="#">Inicio</a>
-      <a href="#">Productos</a>
-      <a href="#">Contactos</a>
-      <a href="#">Nosotros</a>
+      <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>
+          Comprar pescado y marisco fresco. Procedente en su mayoría de las costas del Mediterráno.
+        </p>
+        <p>Destacamos productos mediterráneos como el boquerón, la sardina, la morralla para caldos el lenguado salvaje, la sepia, el salmonete, el atún rojo, la anguila o la fritura mediterránea</p>
+        <p>Todos los productos de nuestro catálogo online son capturados mediante pesca artesanal selectiva, que respeta el medioambiente marino.</p>
+      </section>
 
-    </nav>
-
-    <section class="content sau">
-      <h2 class="section-title">Productos </h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-        minus facere, aspernatur magnam dolores consectetur debitis accusantium?
-        Cum porro veritatis libero tenetur nobis minima, quod modi, iusto totam
-        itaque eum!
-      </p>
-
-      <div class="box-container">
-        <div class="box"></div>
+      <section id="gallery">
+        <div class="media">
+          <div class="layer">
+            </div>
+          <img src="https://images.unsplash.com/photo-1544551763-77ef2d0cfc6c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+          </div>
+            <div class="media">
+          <div class="layer">
+            </div>
+          <img src="https://images.unsplash.com/photo-1622567817558-3eac5d13fa86?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+          </div>
+              <div class="media">
+          <div class="layer">
+            </div>
+          <img src="https://images.unsplash.com/photo-1609815619464-de58c9ae49a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+          </div>
+          </div>
+      </section>
+      <section id="contactos">
+        <h2>Contactos</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          minus facere, aspernatur magnam dolores consectetur debitis
+          accusantium? Cum porro veritatis libero tenetur nobis minima, quod
+          modi, iusto totam itaque eum!
+        </p>
+      </section>
+      <footer class="footer">
+        <div class="grid-4">
+          <div class="col-4">
+          <h3>CONTACTOS</h3>
+          <h4>Teléfono</h4>
+            <p>+34 617 85 11 03</p>
+          <h4>MAIL</h4>
+            <p>pescaderiamariajesus@gmail.com</p>
+          </div>
+          <div class="col-4">
+            <h3>REDES SOCIALES</h3>
+              <a href="https://www.instagram.com/mariajesus_77.p.a/" target="_blank">
+                <button class="btn">
+                  <img src="img/instagram (1).png">
+                </button>
+              </a>
+              <a href="https://www.tiktok.com/@damasoalonsozumaquero" target="_blank">
+                <button class="btn">
+                  <img src="img/tik-tok.png">
+                </button>
+              </a>
+          </div>
+          <div class="col-4">
+            <h3>¿DÓNDE ESTAMOS?</h3>
+            <div class="ubicación">
+              <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses!2ses!4v1701959727107!5m2!1ses!2ses!6m8!1m7!1sEkGPO2if_wLPm8d69BSBRA!2m2!1d36.73279103748889!2d-4.568528942384832!3f357.4879907441443!4f-4.572194624406663!5f3.294705508376599" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
+          </div>
+          <div class="col-4">
+            <h3>INFORMACIÓN</h3>
+            <div class="Repettopnav" id="RepetmyTopnav">
+              <a href="#" class="active">Home<br></a>
+              <a href="#productos">Productos<br></a>
+              <a href="#nosotros">Nosotros<br></a>
+              <a href="#contactos">Contactos</a>
+            </div>
+          </div>
       </div>
-    </section>
-
-    <section class="content about">
-      <h2 class="section-title">Nosotros</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsum alias unde ratione commodi ex excepturi, doloribus placeat laboriosam quisquam at ea tempore debitis accusamus dicta cumque quo praesentium recusandae.
-      </p>
-      <a href="#" class="btn">Saber más</a>
-    </section>
-
-    <section class="content price">
-      <h2 class="section-title">Contactos</h2>
-      <article class="contain">
-        <!-- Contenido de contactos -->
-      </article>
-    </section>
-
-    <!-- Agrega más sections según sea necesario -->
-
-    <footer class="footer">
-      <p>&copy; 2023 Pescadería María Jesus</p>
-    </footer>
-  </div>
-</body>
+        <p>&copy; 2023 Pescadería María Jesus</p>
+        
+      </footer>
+    </div>
+  </body>
 </html>
