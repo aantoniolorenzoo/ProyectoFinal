@@ -4,23 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./img/db502bf8499561baa629df6e7c704561.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/37490f6eb4.js" crossorigin="anonymous"></script>
     <title>Pescadería María Jesus</title>
   </head>
   <body>
     <div id="wrapper">
-      <div class="topnav" id="myTopnav">
-          <a href="#" class="active">Home</a>
-          <a href="#productos">Productos</a>
-          <a href="#nosotros">Nosotros</a>
-          <a href="#contactos">Contactos</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
+      <nav>
+        <div class="navbar">
+          <i class='bx bx-menu'></i>
+          <div class="logo"><a href="#">Pescaderia Maria Jesús</a></div>
+          <div class="nav-links">
+            <div class="sidebar-logo">
+              <span class="logo-name">Pescaderia Maria Jesus</span>
+              <i class='bx bx-x' ></i>
+            </div>
+            <ul class="links">
+              <li><a href="#">HOME</a></li>
+              <li>
+                <a href="#">PRODUCTOS</a>
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="#">Pescados</a></li>
+                  <li><a href="#">Mariscos</a></li>
+                  <li><a href="#">Envasados</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">JAVASCRIPT</a>
+                <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">Dynamic Clock</a></li>
+                  <li><a href="#">Form Validation</a></li>
+                  <li><a href="#">Card Slider</a></li>
+                  <li><a href="#">Complete Website</a></li>
+                </ul>
+              </li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">CONTACT US</a></li>
+            </ul>
+          </div>
+          <div class="search-box">
+            <i class='bx bx-search'></i>
+            <div class="input-box">
+              <input type="text" placeholder="Search...">
+            </div>
+          </div>
         </div>
+      </nav>
+      
       <header class="hero"> 
         <div class="container">
         
@@ -63,11 +98,24 @@
 
       <section id="nosotros">
         <h2>Nosotros</h2>
-        <p>
-          Comprar pescado y marisco fresco. Procedente en su mayoría de las costas del Mediterráno.
-        </p>
-        <p>Destacamos productos mediterráneos como el boquerón, la sardina, la morralla para caldos el lenguado salvaje, la sepia, el salmonete, el atún rojo, la anguila o la fritura mediterránea</p>
-        <p>Todos los productos de nuestro catálogo online son capturados mediante pesca artesanal selectiva, que respeta el medioambiente marino.</p>
+        <div class="center">
+          <section id="item1">
+            <a href="#item1">Lorem Ipum is the dummy text</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vel beatae consequatur suscipit vero magnam nulla molestias alias praesentium atque, commodi error quis, unde aliquam distinctio blanditiis! Beatae, temporibus reprehenderit!</p>
+          </section>
+          <section id="item2">
+            <a href="#item2">Lorem Ipum is the dummy text</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vel beatae consequatur suscipit vero magnam nulla molestias alias praesentium atque, commodi error quis, unde aliquam distinctio blanditiis! Beatae, temporibus reprehenderit!</p>
+          </section>
+          <section id="item3">
+            <a href="#item3">Lorem Ipum is the dummy text</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vel beatae consequatur suscipit vero magnam nulla molestias alias praesentium atque, commodi error quis, unde aliquam distinctio blanditiis! Beatae, temporibus reprehenderit!</p>
+          </section>
+          <section id="item4">
+            <a href="#item4">Lorem Ipum is the dummy text</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt vel beatae consequatur suscipit vero magnam nulla molestias alias praesentium atque, commodi error quis, unde aliquam distinctio blanditiis! Beatae, temporibus reprehenderit!</p>
+          </section>
+        </div>
       </section>
 
       <section id="gallery">
