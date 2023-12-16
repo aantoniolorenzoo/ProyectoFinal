@@ -1,5 +1,5 @@
 <h1>Memoria del proyecto fin de evaluación de Lenguajes de Marcas - 1º DAM/DAW</h1>
-<h2>Black Mirror - A tribute site</h2>
+<h2>Pescaderia Maria Jesús</h2>
 <h2>Indice</h2>
 <ul>
   <li><a href="#introduccion">Introducción</a></li>
@@ -30,19 +30,19 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./bm-readme/hero.png" alt="imagen de hero section" style="width:50%">
 <p>He utilizado una imagen de fondo tomada de Unsplash que se adapta fácilmente a diferentes dispositivos....<br>
 Sobre ella he colocado un Call to Action que he estilado para que cuando se pase el raton por encima se ponga morado dando a querer que el cliente le apetezca algo de pescado<br>
 tambien he decidido poner un fondo transparante sobre el texto para que asin el cliente se quedase bien con el nombre<br>
 de la pescaderia </p>
 
 <h3>Introducción</h3>
-<img src="./bm-readme/intro.png" alt="imagen de hero section" style="width:50%">
 <p>He introducido un poco para que estaba dedicada nuestra pagina web y después  me propuesto a pasar a la seccion de los productos
 
+<h3>Productos</h3>
+<p>En productos he puesto los 3 tipos de productos que puedes encontrar en nuestra pescaderia cada uno con una foto y un boton todos ellos en un grid de  3 columnas</p>
 
 <h3>Footer</h3>
-<p>breve explicación </p>
+<p>En el Footer he un grid de 4  puesto lo que seria una breve explicacion de todo lo anterior sobre informacion valiosa para contactar con nosotros o para que el cliente pueda hacerlo </p>
 
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
@@ -54,7 +54,7 @@ de la pescaderia </p>
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools "How to" (poner vínculo)</li>
-  <li>Accordion: ..............</li>
-  <li>..........</li>
+  <li>Barra de navegación: tomada de Codenepal</li>
+  <li>Gallery: tomada de Codenepal
+  <li>Butoons tomados de Codepen</li>
 </ul>
