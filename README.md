@@ -41,6 +41,13 @@ de la pescaderia </p>
 <h3>Productos</h3>
 <p>En productos he puesto los 3 tipos de productos que puedes encontrar en nuestra pescaderia cada uno con una foto y un boton todos ellos en un grid de  3 columnas</p>
 
+<h3>About us </h3>
+<p></p>
+
+<h3>Gallery</h3>
+<p></p>
+<h3>Contactos </h3>
+<p></p>
 <h3>Footer</h3>
 <p>En el Footer he un grid de 4  puesto lo que seria una breve explicacion de todo lo anterior sobre informacion valiosa para contactar con nosotros o para que el cliente pueda hacerlo </p>
 
