@@ -91,8 +91,6 @@ nav label.button {
 }
 /*responsividad de la nav*/
 @media (max-width: 940px) {
-  .nav {
-  }
   .menu ul {
     display: block;
     position: fixed;
@@ -176,7 +174,7 @@ body {
   margin-bottom: 20px;
 }
 button {
-  margin-top: 280px;
+  margin-top: 255px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -190,10 +188,10 @@ button {
 button:hover {
   background-color: #464ef0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .button {
-    max-width: 200px; /* Puedes ajustar el ancho máximo según sea necesario */
-    margin: 0 auto; /* Centra el botón en pantallas más grandes */
+    max-width: 200px; 
+    margin-top: auto; /* Centra el botón en pantallas más grandes */
   }
 }
 /*responsividad para el header*/
