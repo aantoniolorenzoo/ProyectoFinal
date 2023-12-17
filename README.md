@@ -47,7 +47,7 @@ de la pescaderia </p>
 <h3>Gallery</h3>
 <p>He dedicido decantarme por una gallery con un contenido un poco variado con fotos sacadas de Unsplash que cuando el raton esta sobre ellas estas provocan un efecto de zoom gracias al css</p>
 <h3>Contactos </h3>
-<p></p>
+<p>He puesto varios parrafos con informacion de como poder contactar con nosotros</p>
 <h3>Footer</h3>
 <p>En el Footer hay un grid de 4  con una columna para contactos otro para redes sociales con dos botones sacados de Neumorphism , otra con una foto de maps ya que por mas que lo he intentado no me dejado insertar un maps a tiempo real y una ultima section con una "repeticion de barra de navegacion" y un modal botton de cookies </p>
 
