@@ -15,7 +15,7 @@
 <p>Licencia CC-BY</p>
 
 <h2 id="motivacion">Motivación</h2>
-<p>El tema lo he elegido porque la madre de mi novia tiene un negocio que en este caso es una pescadería y como en el momento <br> que Pilar dijo que deberíamos elegir un tema fue el primero que se me vino a la mente ya que asín con la página web espero ahorrarle mucho trabajo </p>
+<p>El tema lo he elegido porque la madre de mi novia tiene un negocio que en este caso es una pescadería y como en el momento <br> que Pilar dijo que deberíamos elegir un tema fue el primero que se me vino a la mente ya que asín con la página web espero ahorrarle mucho trabajo y como abrió la pescaderia hace 1 año aproximadamente para ayudarle a empezar </p>
 
 <h2 id="estructura">Estructura</h2>
 <p>La web está dividida en  7 secciones:</p>
@@ -36,20 +36,20 @@ tambien he decidido poner un fondo transparante sobre el texto para que asin el 
 de la pescaderia </p>
 
 <h3>Introducción</h3>
-<p>He introducido un poco para que estaba dedicada nuestra pagina web y después  me propuesto a pasar a la seccion de los productos
+<p>He introducido un poco para que estaba dedicada nuestra pagina web utilizando un h2 y parrafos y después  me propuesto a pasar a la seccion de los productos
 
 <h3>Productos</h3>
-<p>En productos he puesto los 3 tipos de productos que puedes encontrar en nuestra pescaderia cada uno con una foto y un boton todos ellos en un grid de  3 columnas</p>
+<p>En productos he puesto los 3 tipos de productos que puedes encontrar en nuestra pescaderia cada uno con una foto y un boton todos ellos en un grid de  3 columnas cada una de ellas acompañadas con un boton de compra con animacion <br> que mas adelante dispondra de otra pestaña con todos los productos de cada categoria. </p>
 
 <h3>About us </h3>
-<p></p>
+<p>En esta sección en el parrafo cada prodcuto que destacamos en nuestra pescaderia esta en azul para asin llamar la atención del cliente </p>
 
 <h3>Gallery</h3>
-<p></p>
+<p>He dedicido decantarme por una gallery con un contenido un poco variado con fotos sacadas de Unsplash que cuando el raton esta sobre ellas estas provocan un efecto de zoom gracias al css</p>
 <h3>Contactos </h3>
 <p></p>
 <h3>Footer</h3>
-<p>En el Footer he un grid de 4  puesto lo que seria una breve explicacion de todo lo anterior sobre informacion valiosa para contactar con nosotros o para que el cliente pueda hacerlo </p>
+<p>En el Footer hay un grid de 4  con una columna para contactos otro para redes sociales con dos botones sacados de Neumorphism , otra con una foto de maps ya que por mas que lo he intentado no me dejado insertar un maps a tiempo real y una ultima section con una "repeticion de barra de navegacion" y un modal botton de cookies </p>
 
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
