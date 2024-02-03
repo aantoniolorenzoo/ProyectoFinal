@@ -13,6 +13,7 @@
   font-family: texto2;
   src: url(../fonts/Agina.otf);
 }
+/*primer code snippets*/
 html {
   scroll-behavior: smooth;
 }
@@ -138,12 +139,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   text-align: center;
-  background-color: #046bd2;
 }
 #intro {
   padding-top: 20px;
 }
-
 #wrapper {
   width: 100%;
   margin: auto;
@@ -366,49 +365,6 @@ body {
   font-size: 1.2em;
 }
 
-#nosotros p {
-  color: #000; /* Color predeterminado del texto del párrafo */
-}
-
-#nosotros p span {
-  color: #5dade2; /* Color azul celeste para los nombres de los pescados */
-  font-weight: bold; /* Hacer que el texto dentro de <span> sea negrita si es necesario */
-}
-
-#contactos {
-  text-align: center;
-  margin: 20px;
-  padding: 20px;
-}
-
-#contactos h2 {
-  color: #3498db; /* Color azul */
-}
-
-#contactos p {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-#contactos ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#contactos li {
-  margin-bottom: 10px;
-}
-
-#contactos a {
-  color: #3498db; /* Color azul para los enlaces */
-  text-decoration: none;
-}
-
-#contactos a:hover {
-  text-decoration: underline; /* Subrayar al pasar el ratón sobre los enlaces */
-}
-
 .footer {
   background-color: #046bd2;
   color: #fff;
@@ -472,6 +428,7 @@ footer ul {
   cursor: pointer;
 }
 
+
 /***/
 /*responsividad de columnas y grid con enfoque MOBILE FIRST*/
 @media screen and (max-width: 900px) {
@@ -509,4 +466,64 @@ footer ul {
   .grid-4 {
     grid-template-columns: auto auto auto auto;
   }
+}
+
+/* Agrega estos estilos al final de tu archivo style.css */
+
+#contact-form {
+  background-color: #f5f5f5;
+  padding: 40px;
+  margin: 40px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2980b9;
+}
+
+.btn-submit {
+  width: 100%;
+  height: 50px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #2980b9;
 }

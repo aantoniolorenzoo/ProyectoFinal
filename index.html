@@ -33,11 +33,6 @@
     </nav>
     <header class="hero">
       <h1>Pescaderia Maria Jesus</h1>
-    <div class="call-to-action"> 
-      <a href="#intro">
-      Some fish?
-      </a>
-    </div>
     </header>
     <div id="wrapper">
       <section id="intro">
@@ -77,14 +72,8 @@
       </section>
       <section id="nosotros">
         <h2>About us</h2>
-        <p>Buy fresh fish and seafood at home. Coming mostly from the coasts of the Mediterranean. Among our products, the best seafood at home stands out: <span>prawns from Vinaròs and seafood from the Ebre Delta,</span> such as <span>
-        rock mussels (famous for their flavor), tellinas, oysters, razor clams, blue crab, clams.
-        </span><br>
-
-          rock mussels (famous for their flavor), tellinas, oysters, razor clams, blue crab, clams.
-        </span><br>
-        
-          We also highlight Mediterranean products such as anchovies, sardines, whitebait for broth, wild sole, cuttlefish, mullet, red tuna, eel and Mediterranean fried fish.</span><br>
+        <p>Buy fresh fish and seafood at home. Coming mostly from the coasts of the Mediterranean. Among our products, the best seafood at home stands out: prawns from Vinaròs and seafood from the Ebre Delta, such as 
+        rock mussels (famous for their flavor), tellinas, oysters, razor clams, blue crab, clams.    
           All the products in our online store are caught through selective artisanal fishing, which respects the marine environment.<br></p>
       </section>
 
@@ -115,38 +104,41 @@
           </div>
         </div>  
       </section>
-
-      <section id="contactos">
+      <section id="contact-form">
         <h2>Contact Us</h2>
-        <p>
-          We are here to help you! If you have any questions or comments, please do not hesitate to contact us.<br>
-          We are located in Maqueda, Málaga and our team of fish and seafood experts is ready to serve you
-        </p>
-      
-        <h3>Contact information:</h3>
-        <ul>
-          <li><strong>Address:</strong> Street Tacón number 3, Maqueda, Málaga </li>
-          <li><strong>Phone Number:</strong> 617 85 11 03</li>
-          <li><strong>Email:</strong>pescaderiamariajesus@gmail.com </li>
-        </ul>
-      
-        <h3>Attention service hours: </h3>
-        <p>We are open from 9am to 3pm every day of the week.</p>
-      
-        <h3>Social Networks:</h3>
-        <ul>
-          <li><a href="https://www.instagram.com/mariajesus_77.p.a/">Instagram</a></li>
-        </ul>
+        <form id="customer-contact-form">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
       </section>
+      
+      
       <footer class="footer">
         <div class="grid-4">
           <div class="col-4">
-            <h3>Contacts</h3>
-            <h4>Phone number</h4>
-            <p>+34 617 85 11 03</p>
-            <h4>MAIL</h4>
-            <p>pescaderiamariajesus@gmail.com</p>
-          </div>
+            <h2>Contact Us</h2>
+            <p>
+                We are here to help you!<br>
+                We are located in Maqueda, Málaga <br>and our team of fish and seafood<br> experts is ready to serve you
+            </p>
+            <h3>Contact information:</h3>
+            <ul>
+                <li><strong>Address:</strong> Street Tacón number 3, Maqueda, Málaga </li>
+                <li><strong>Phone Number:</strong> 617 85 11 03</li>
+                <li><strong>Email: </strong>pescaderiamariajesus@gmail.com </li>
+            </ul>
+        </div>
           <div class="col-4">
             <h3>SOCIAL NETWORKS</h3>
             <a href="https://www.instagram.com/mariajesus_77.p.a/" target="_blank">
@@ -162,10 +154,10 @@
           </div>
           <div class="col-4">
             <h3>WHERE WE ARE?</h3>
-            <div class="maps">
-              <img src="./img/maps.png" alt="">
+            <div class="mapcontainer">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.5614433791475!2d-4.571148723480092!3d36.73309257147827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72efa8807a8297%3A0x6422bf4361ff8fb2!2zUGVzY2FkZXLDrWEgTWFyw61hIEplc8O6cw!5e0!3m2!1ses!2ses!4v1706984702488!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-          </div>
+        </div>
           <div class="col-4">
             <h3>INFORMATION</h3>
             <div class="Repettopnav" id="RepetmyTopnav">
